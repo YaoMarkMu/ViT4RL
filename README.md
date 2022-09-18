@@ -4,8 +4,6 @@ This repo is inherited from [CtrlFomer](https://arxiv.org/abs/2206.08883?context
 
 This is a PyTorch implementation of the contrastive reinforcement framework of **CtrlFomer** in single task reinforcement learning.
 
-The whole framework is shown as follow:
-![Whole Framework](framework.png)
 
 ## Requirements
 
