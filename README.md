@@ -1,9 +1,11 @@
-# CtrlFomer: Learning Transferable State Representation for Visual Control via Transformer
+# A simple yet work Vision Transformer for Sample Effcient online Reinforcement Learning
 
-This is a PyTorch implementation of **CtrlFomer**.
+This repo is inherited from [CtrlFomer](https://arxiv.org/abs/2206.08883?context=cs.LG) (ICML2022) and is simplified to single task reinforcement learning.
+
+This is a PyTorch implementation of the contrastive reinforcement framework of **CtrlFomer** in single task reinforcement learning.
 
 The whole framework is shown as follow:
-![CtrlFomer Framework](pngs/framework.png)
+![Whole Framework](framework.png)
 
 ## Requirements
 
@@ -34,7 +36,7 @@ conda activate CtrlFormer
 To train the CtrlFormer run
 ```
 
-python3 train.py  batch_size=512 action_repeat=2 env_index=[0,1,2,3,4]
+python3 train.py  batch_size=512 action_repeat=2 env=walker_walk
 
 ```
 
