@@ -105,7 +105,7 @@ We used [kornia](https://github.com/kornia/kornia) for data augmentation.
 
 
 ## Reference
-
+```
 @inproceedings{mu2022ctrlformer,
   title={CtrlFormer: Learning Transferable State Representation for Visual Control via Transformer},
   author={Mu, Yao Mark and Chen, Shoufa and Ding, Mingyu and Chen, Jianyu and Chen, Runjian and Luo, Ping},
@@ -114,3 +114,4 @@ We used [kornia](https://github.com/kornia/kornia) for data augmentation.
   year={2022},
   organization={PMLR}
 }
+```
